@@ -1,6 +1,11 @@
 # Notifier Framework Documentation
 
-Work is still in progress, and not yet production ready!!!
+<p align="center">
+  <img alt="Disclaimer"
+       src="https://img.shields.io/badge/Disclaimer-Work%20in%20progress%20%E2%80%94%20NOT%20production%20ready-red?style=for-the-badge">
+</p>
+
+
 A SwiftUI in-app notification system, providing unified, customizable notifications with support for haptics, sounds, swipe gestures, and more to come.
 <p align="center">
   <a href="https://github.com/user-attachments/assets/e94ea3e9-f5b7-4319-9ea5-ecbf624a2667">
@@ -423,3 +428,9 @@ We welcome contributions to the Notifier framework! Whether you're fixing bugs, 
 3. **Make your changes** following the contribution guidelines.
 4. **Test thoroughly** on both simulator and physical devices.
 5. **Submit a pull request** with a clear and descriptive summary.
+
+<p align="center">
+  <img alt="Disclaimer"
+       src="https://img.shields.io/badge/Disclaimer-Work%20in%20progress%20%E2%80%94%20NOT%20production%20ready-red?style=for-the-badge">
+</p>
+
