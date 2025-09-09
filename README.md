@@ -397,8 +397,6 @@ notifier.notify(
 **Queue overflow**: Adjust `maxConcurrentNotifications` in configuration
 
 
-Got it 👍 — you want the **entire section as one complete Markdown snippet**, not mixed formatting. Here’s the fully fixed version, all inside one snippet:
-
 
 ## Contributing
 
