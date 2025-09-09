@@ -7,15 +7,14 @@
 
 import SwiftUI
 
-
 public enum NotificationStyle {
     case info
     case success
     case warning
     case error
     case custom(iconName: String, iconColor: Color, backgroundColor: Color)
-    
-    var iconName: String {
+
+    public var iconName: String {
         switch self {
         case .info: return "info.circle.fill"
         case .success: return "checkmark.circle.fill"
@@ -24,8 +23,8 @@ public enum NotificationStyle {
         case .custom(let icon, _, _): return icon
         }
     }
-    
-    var iconColor: Color {
+
+    public var iconColor: Color {
         switch self {
         case .info: return .blue
         case .success: return .green
@@ -34,8 +33,8 @@ public enum NotificationStyle {
         case .custom(_, let color, _): return color
         }
     }
-    
-    var backgroundColor: Color {
+
+    public var backgroundColor: Color {
         switch self {
         case .info: return Color(.systemBackground)
         case .success: return Color(.systemBackground)
@@ -45,3 +44,4 @@ public enum NotificationStyle {
         }
     }
 }
+
