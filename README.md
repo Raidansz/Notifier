@@ -1,5 +1,6 @@
 # Notifier Framework Documentation
 
+Work is still in progress, and not yet production ready!!!
 A SwiftUI in-app notification system, providing unified, customizable notifications with support for haptics, sounds, swipe gestures, and more to come.
 <p align="center">
   <a href="https://github.com/user-attachments/assets/e94ea3e9-f5b7-4319-9ea5-ecbf624a2667">
