@@ -1,0 +1,15 @@
+{
+  "originHash" : "ddd3b0b0383bd313a3c8ed1e9ad8961ab27cd68e7a71a7ec1772507372c69624",
+  "pins" : [
+    {
+      "identity" : "notifier",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Raidansz/Notifier.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "25b4119f755210cd1d749353ad44e90681dcc338"
+      }
+    }
+  ],
+  "version" : 3
+}
