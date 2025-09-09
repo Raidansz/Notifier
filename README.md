@@ -271,34 +271,6 @@ notifier.notify(
 )
 ```
 
-### Progress Notifications
-
-```swift
-struct ProgressNotification: NotificationContent {
-    let progress: Double
-    var duration: TimeInterval? { nil }
-    
-    var body: some View {
-        VStack {
-            Text("Uploading...")
-            ProgressView(value: progress)
-        }
-    }
-}
-
-// Update progress
-Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true) { timer in
-    progress += 0.1
-    notifier.dismiss()
-    notifier.notify(ProgressNotification(progress: progress))
-    
-    if progress >= 1.0 {
-        timer.invalidate()
-        notifier.notify(message: "Complete!", style: .success)
-    }
-}
-```
-
 ## API Reference
 
 ### Notifier Methods
